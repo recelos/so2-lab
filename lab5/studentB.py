@@ -2,8 +2,8 @@ import numpy as np
 
 def get_user_move(board):
     try:
-        x = int(input("Podaj kolumne (INDEKSUJEMY OD 0!!!): "))
-        y = int(input("Podaj wiersz (INDEKSUJEMY OD 0!!!): "))
+        x = int(input("Podaj wiersz (INDEKSUJEMY OD 0!!!): "))
+        y = int(input("Podaj kolumne (INDEKSUJEMY OD 0!!!): "))
     except:
         print("Musisz podac liczbe")
         return board
